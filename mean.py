@@ -1,3 +1,5 @@
+#print the mean, sub, max of the data.txt
+
 import sys
 
 sum =0
@@ -5,7 +7,7 @@ n = 0
 
 
 # sum input values
-for num in sys.stdin:
+for num in open('data.txt'):
 	sum += float(num)
 	n += 1
 
