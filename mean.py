@@ -11,3 +11,9 @@ for num in sys.stdin:
 
 print sum/n
 
+#sub input values
+for num in sys.stdin:
+	sub -= float(num)
+	n += 1
+
+print sub/n
