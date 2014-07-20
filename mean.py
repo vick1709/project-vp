@@ -1,4 +1,4 @@
-#print the mean, sub, max of the data.txt
+#print the mean of the data.txt
 
 import sys
 
@@ -12,10 +12,3 @@ for num in open('data.txt'):
 	n += 1
 
 print sum/n
-
-#sub input values
-for num in sys.stdin:
-	sub -= float(num)
-	n += 1
-
-print sub/n
